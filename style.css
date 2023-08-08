@@ -1,0 +1,146 @@
+hr {
+  width: 140px;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-line-container {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.horizontal-line {
+  border-top: 1px solid rgb(197, 188, 188);
+  margin: 0 10px;
+}
+
+p {
+  color: green;
+}
+
+.sub-container {
+  border: 1px solid rgb(197, 188, 188);
+  border-radius: 5px;
+  padding: 25px 0px 30px 0px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.sub-containers {
+  display: flex;
+  justify-content: space-between;
+}
+
+.radio {
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.radio-container {
+  padding: 8px 16px;
+}
+
+.rupees {
+  font-size: x-small;
+  text-decoration: line-through;
+  align-self: flex-end;
+  color: rgb(193, 200, 208);
+  margin: 0px 0px 0px 60px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+}
+
+.popular {
+  text-align: right;
+  margin: 0px 0px 0px 25px;
+  display: flex;
+  flex-direction: column;
+  color: green;
+}
+
+.percentage{
+  color: black;
+  margin: 0px 0px 0px 23px;
+}
+
+.dropdown {
+  width: 350px;
+  display: block;
+  padding: 10px;
+  margin: auto;
+}
+
+.sub-dropdown {
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  margin: auto;
+}
+
+.row span {
+ margin: 0px 40px 0px 17px;
+}
+
+.rows {
+  margin-top: 10px;
+}
+
+select {
+  width: 70px;
+  padding: 5px;
+  margin:0 5px;
+}
+
+.content {
+  display: none;
+}
+
+.value{
+  display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.shipping{
+  padding: 26px 160px 0px 0px;
+  color:green;
+}
+
+.total{
+  padding: 26px 5px 0px 0px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.add-to-cart{
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  color: white;
+  align-items: center;
+  border-radius: 3px;
+  background-color: #018749;
+  padding: 10px 160px;
+  border: none;
+  cursor: pointer;
+}
